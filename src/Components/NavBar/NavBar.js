@@ -7,7 +7,7 @@ export const NavBar = () => {
     <nav className="flex justify-end w-full">
         <ul className="inline-flex justify-end">
             {nav.map(item => {
-               return <li className='sm:m-4 mx-0 my-4 list-none'><button className="sm:hover:bg-lightPrimary p-3  rounded-xl">{item}</button></li>
+               return <li className='sm:m-4 mx-0 my-4 list-none'><button className="sm:hover:bg-lightPrimary p-3 rounded-xl">{item}</button></li>
             })}
         </ul>
     </nav>

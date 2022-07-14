@@ -4,7 +4,7 @@ import { NavBar } from '../NavBar/NavBar'
 
 export const Header = () => {
   return (
-    <header className="w-full bg-primary inline-flex content-center fixed top-0 shadow-headershadow">
+    <header className="w-full bg-primary inline-flex content-center fixed top-0 shadow-headershadow z-10">
       <Logo />
       <NavBar />
     </header>
